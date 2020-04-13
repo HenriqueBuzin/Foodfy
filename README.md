@@ -1,2 +1,2 @@
 # foodfy
- Foodfy
+Restaurant system created in Rocketseat LaunchBase training
