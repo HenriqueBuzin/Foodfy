@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, a {
+    font-family: Roboto-Regular;
+    color: #111111;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+header {
+    width: 940px;
+    padding: 16px;
+}
+
+#foodfy {
+    font-size: 24px;
+}
+
+header .link div {
+    display: inline;
+    margin-left: 122px;
+}
+
+header .link div a {
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+/* Imagem da Introdução */
+
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #FBDFDB;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+#text h1{
+    font-family: Roboto-Bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 117px;
+}
+
+#text p {
+    opacity: 0.7;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+#image {
+    background-image: url("./assets/images/119236-OQ05QX-268.png");
+    width: 216px;
+    height: 300px;
+    margin-top: 66px;
+    margin-left: 200px;
+}
+
+/* Parte Inferior */
+
+#acess {
+    margin-top: 50px;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Comidas */
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+
+.imageFoot {
+    width: 300px;
+    height: 140px;
+    background-image: url("./assets/images/Rectangle.png");
+    border-radius: 15px;
+}
