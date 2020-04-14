@@ -4,7 +4,14 @@
     <title>Admin</title>
 {% endblock %}
 
-
 {% block content %}
-Chefs Admin
+<form class="card" method="POST" action="/members">
+    <section class="details">
+        <div id="headerCreate">
+                <h1>Novo Chef</h1>
+                <button type="submit">Salvar Chef</button>
+        </div>
+        {% include 'admin/chefs/fields.njk' %}
+    </section>
+</form>
 {% endblock content %}

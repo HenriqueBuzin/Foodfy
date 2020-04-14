@@ -1,11 +1,20 @@
-{% extends "admin/layout.njk" %}
-
-{% block head %}
-    <title>Admin</title>
-{% endblock %}
-
-
-{% block content %}
-Chefs Admin
-
-{% endblock content %}
+<div class="fields">
+    <div>Nome</div>
+    <div>
+        <input 
+            type="text"
+            name="name"
+            value="{{ chef.name }}"  
+            />
+    </div>
+</div>
+<div class="fields">
+    <div>Avatar</div>
+    <div>
+        <input 
+            type="text"
+            name="avatar_url"
+            value="{{ chef.avatar_url }}"  
+            />
+    </div>
+</div>

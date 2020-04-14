@@ -225,3 +225,41 @@ footer p {
 .menu a:first-child {
     margin-right: 120px;
 }
+
+/* Create Chef */
+
+#headerCreate {
+    position: relative;
+    height: 50px;
+}
+
+#headerCreate h1 {
+    position: absolute;
+    left: 0;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+}
+
+#headerCreate button {
+    position: absolute;
+    right: 0;
+    background-color: var(--primary-color);
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+}
+
+.fields div:first-child {
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    color: #111111;
+}
+
+.fields div:last-child input{
+    padding: 4px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
