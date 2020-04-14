@@ -53,7 +53,7 @@ header .link div a {
     padding-right: 100px;
 }
 
-#text h1{
+#introductionTitle{
     font-family: Roboto-Bold;
     font-size: 32px;
     margin-bottom: 10px;
@@ -96,10 +96,36 @@ header .link div a {
     margin-bottom: 30px;
 }
 
-
 .imageFoot {
     width: 300px;
     height: 140px;
     background-image: url("./assets/images/Rectangle.png");
     border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.item p {
+    font-size: 14px;
+    color: #777777;
+}
+
+.item h1 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: Roboto-Regular;
+    font-weight: 400;
+}
+
+/* Rodapé */
+
+footer {
+    background: #EEEEEE;
+    padding: 16px;
+}
+
+footer p {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
 }
