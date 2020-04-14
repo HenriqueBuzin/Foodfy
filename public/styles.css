@@ -155,4 +155,33 @@ footer p {
     margin-bottom: 50px;
 }
 
-/* Receitas */
+/* Chefs */
+
+.chefs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
+    margin-bottom: 50px;
+}
+
+.chef {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    margin-bottom: 50px;
+}
+
+.imageChef {
+    width: 50px;
+    height: 50px;
+    background-image: url("./assets/images/Rectangle.png");
+    border-radius: 50%;
+    background-position: center;
+}
+
+.chef h1 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.chef p {
+    color: #999999;
+}
