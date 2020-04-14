@@ -244,7 +244,8 @@ footer p {
 #headerCreate button {
     position: absolute;
     right: 0;
-    background-color: var(--primary-color);
+    background: #6558C3;
+    border-radius: 4px;
     padding: 8px;
     color: white;
     font-size: 12px;
@@ -254,6 +255,8 @@ footer p {
     font-family: Roboto-Bold;
     font-size: 16px;
     color: #111111;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .fields div:last-child input{
