@@ -129,3 +129,27 @@ footer p {
     color: #999999;
     text-align: center;
 }
+
+/* Sobre */
+
+#sobre {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.subSobre {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Roboto-Bold;
+    font-size: 20px;
+}
+
+.textSobre {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.textSobre:last-child {
+    margin-bottom: 50px;
+}
