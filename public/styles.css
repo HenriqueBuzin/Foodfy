@@ -26,6 +26,7 @@ body, a {
 header {
     width: 940px;
     padding: 16px;
+    margin-bottom: 50px;
 }
 
 #foodfy {
@@ -51,6 +52,7 @@ header .link div a {
     border-radius: 30px;
     padding-left: 60px;
     padding-right: 100px;
+    margin-top: -30px;
 }
 
 #introductionTitle{
@@ -133,7 +135,6 @@ footer p {
 /* Sobre */
 
 #sobre {
-    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -153,3 +154,5 @@ footer p {
 .textSobre:last-child {
     margin-bottom: 50px;
 }
+
+/* Receitas */
