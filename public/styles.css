@@ -7,12 +7,22 @@
     border: none;
 }
 
+:root {
+    --primary-color: #7159c1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 a {
     text-decoration: none;
 }
 
 body, a {
-    font-family: Roboto-Regular;
+    font-family: 'Roboto-Regular';
     color: #111111;
 }
 
@@ -27,24 +37,26 @@ header {
     width: 940px;
     padding: 16px;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 211px 1fr;
 }
 
-#foodfy {
-    font-size: 24px;
+.logo {
+    background-image: url("./assets/images/logo.png");
+    width: 91px;
+    height: 27px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
 }
 
-header .link div {
-    display: inline;
-    margin-left: 122px;
+.logoAdmin {
+    filter: invert(100%);
 }
 
-.others {
+.link a {
     font-size: 16px;
     margin-right: 30px;
-}
-
-#first {
-    margin-left: 120px;
 }
 
 .active {
@@ -192,4 +204,24 @@ footer p {
 
 .chef p {
     color: #999999;
+}
+
+/* Admin */
+
+.adminContainer {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #111111;
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:first-child {
+    margin-right: 120px;
 }

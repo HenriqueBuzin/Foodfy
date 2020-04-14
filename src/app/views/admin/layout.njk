@@ -9,14 +9,16 @@
     </head>
 
     <body>
-        <header>
+        <header class="menu">
+            <a href="/foodfy"><div class="logo logoAdmin"></div></a>
             <div class="link">
-                <a href="/foodfy" id="foodfy">Foodfy</a>
-                <a href="/receitas" class="others">Receitas</a>
-                <a href="/chefs" class="others">Chefs</a>
+                <a href="/admin/recipes">Receitas</a>
+                <a href="/admin/chefs">Chefs</a>
             </div>
         </header>
+        <div class="adminContainer">
         {% block content %}{% endblock %}
+        </div>
     </body>
-    <script src="/scripts.js"></script>
+    <script src="/assets/js/scripts.js"></script>
 </html>
