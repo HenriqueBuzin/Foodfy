@@ -10,4 +10,13 @@ routes.get('/home', function(req, res) {
 })
 
 
+routes.get('/sobre', function(req, res) {
+    return res.render("sobre/index")
+})
+
+routes.get('/receitas', function(req, res) {
+    return res.render("receitas/index")
+})
+
+
 module.exports = routes
