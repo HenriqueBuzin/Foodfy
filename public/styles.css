@@ -230,7 +230,7 @@ footer p {
 
 #headerCreate {
     position: relative;
-    height: 50px;
+    height: 30px;
 }
 
 #headerCreate h1 {
@@ -257,6 +257,7 @@ footer p {
     color: #111111;
     margin-bottom: 10px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .fields div:last-child input{
