@@ -38,9 +38,17 @@ header .link div {
     margin-left: 122px;
 }
 
-header .link div a {
+.others {
     font-size: 16px;
     margin-right: 30px;
+}
+
+#first {
+    margin-left: 120px;
+}
+
+.active {
+    font-weight: bold;
 }
 
 /* Imagem da Introdução */
