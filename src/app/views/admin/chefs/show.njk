@@ -6,5 +6,29 @@
 
 
 {% block content %}
-Chefs Admin
+<section>
+    <div class="headerCreate">
+            <h1>Chef: {{ chef.name }}</h1>
+            <a href="#">Editar Chef</a>
+    </div>
+</section>
+<section class="details">
+    <div class="detailsImage" style="background-image: url({{ chef.avatar_url }})"></div>
+    <h1>{{ chef.name }}</h1>
+    <div>4 receitas</div>
+    <div>Receitas</div>
+    <div class="receitasChef">
+        <div>
+            <div class="imageReceitasChef" style="background-image: url({{ chef.avatar_url }})"></div>
+            <div>
+                <h1>Docinhos pão-do-céu</h1>
+                <p>por Ricardo Golvea</p>
+                <a href="#">Visualizar</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
 {% endblock content %}

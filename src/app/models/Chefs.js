@@ -14,7 +14,7 @@ module.exports = {
             INSERT INTO chefs (
                 name,
                 avatar_url,
-                created_at
+                create_at
             ) VALUES ($1, $2, $3)
             RETURNING id
         `

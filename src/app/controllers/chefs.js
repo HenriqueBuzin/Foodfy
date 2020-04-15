@@ -29,18 +29,12 @@ module.exports = {
         */
 
        Chef.find(req.params.id, function(chef){
-            
+        
         if(!chef) return res.send("Chef not found!")
         
-        return res.render("admin/chefs/show", { Chef })
+        return res.render("admin/chefs/show", { chef })
     
     })
-
-
-
-
-
-        return res.render("admin/chefs/index")
     },
     edit(req, res){
         Chef.find(req.params.id, function(chef){
@@ -61,7 +55,8 @@ module.exports = {
         }
     
         Chef.create(req.body, function(chefs){
-            return res.redirect(`/admin/chefs/${chefs.id}`)
+            //return res.redirect(`/admin/chefs/${chefs.id}`)
+            return res.send("adm")
         })
     },
     put(req, res){
